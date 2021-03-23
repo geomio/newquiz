@@ -1,0 +1,39 @@
+#answer1{
+  display: none;
+  border-radius: 15%;
+  background-color: aqua;
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(8, 72, 161);
+  padding: 10px;
+}
+
+#answer2{
+  display: none;
+  border-radius: 15%;
+  background-color: rgb(98, 255, 7);
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#answer3{
+  display: none;
+  border-radius: 15%;
+  background-color: rgb(255, 41, 41);
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(240, 217, 12);
+  padding: 10px;
+}
+
+#answer4{
+  display: none;
+  border-radius: 15%;
+  background-color: rgb(217, 0, 255);
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(145, 187, 255);
+  padding: 10px;
+}
