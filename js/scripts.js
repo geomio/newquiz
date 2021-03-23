@@ -1,5 +1,7 @@
 $(document).ready(function() {
-  $().submit(function(event) {
+  $("form#quiz").submit(function(event) {
+    
+
     event.preventDefault();
   });
 });
