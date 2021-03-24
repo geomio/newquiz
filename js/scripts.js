@@ -15,7 +15,7 @@ $(document).ready(function() {
     $("#answer3").hide();
     $("#answer4").hide();
     
-    let answer = 44
+    let answer = question1 + question2 + question3 + question4 + question5 + question6 + question7 + question8 + question9 + question10;
     
     if(answer <= 10 && answer >= 1){
       $("#answer1").show();
@@ -26,8 +26,7 @@ $(document).ready(function() {
     }else if(answer <=40 && answer >= 31){
       $("#answer4").show();
     }else if(answer >=40){
-      console.log("answer4");
-      // $("#answer4").show();
+      $("#answer4").show();
     }
     
 
