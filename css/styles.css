@@ -2,9 +2,6 @@
   display: none;
   border-radius: 15%;
   background-color: aqua;
-  margin: auto;
-  width: 50%;
-  border: 3px solid rgb(8, 72, 161);
   padding: 10px;
 }
 
@@ -12,9 +9,6 @@
   display: none;
   border-radius: 15%;
   background-color: rgb(98, 255, 7);
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
   padding: 10px;
 }
 
@@ -22,18 +16,28 @@
   display: none;
   border-radius: 15%;
   background-color: rgb(255, 41, 41);
-  margin: auto;
-  width: 50%;
-  border: 3px solid rgb(240, 217, 12);
   padding: 10px;
 }
 
 #answer4{
   display: none;
-  border-radius: 15%;
   background-color: rgb(217, 0, 255);
-  margin: auto;
-  width: 50%;
-  border: 3px solid rgb(145, 187, 255);
+  border-radius: 15%;
   padding: 10px;
+}
+
+body{
+  background-color: cadetblue;
+}
+
+.colorbox{
+  padding: 5px;
+  background-color: rgb(75, 110, 177);
+  text-align: center;
+}
+
+#boxhead{
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
