@@ -35,9 +35,19 @@ body{
 }
 
 .colorbox{
-  padding: 5px;
+  margin-top: 15px;
   background-color: rgb(75, 110, 177);
   text-align: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.boxp{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: lime;
 }
 
 #boxhead{
@@ -66,6 +76,7 @@ body{
   margin: 5px;
   background-color: rgb(38, 233, 135);
   text-align: center;
+  border-radius: 10px;
 }
 
 #bottomrow{
@@ -114,6 +125,6 @@ body{
 .sizeimg{
   width: 300px;
   height: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  display: block;
 }
